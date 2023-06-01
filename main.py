@@ -49,16 +49,16 @@ def get_birthdays_per_week(users):
             print(f"{day}: {', '.join(users)}")
 
 
-#Перевірка
+# Перевірка
 users = [
-    {"name": "Olexandr", "birthday": datetime(2023, 5, 28)},
-    {"name": "Taras", "birthday": datetime(2023, 5, 29)},
-    {"name": "Vasyl`", "birthday": datetime(2023, 6, 1)},
-    {"name": "Olena", "birthday": datetime(2023, 6, 2)},
-    {"name": "Volodymyr", "birthday": datetime(2023, 6, 3)},
-    {"name": "David", "birthday": datetime(2023, 6, 6)},
-    {"name": "Stephania", "birthday": datetime(2023, 6, 7)},
-    {"name": "Ignat", "birthday": datetime(2023, 6, 9)}
+    {"name": "Olexandr", "birthday": datetime(2023, 5, 27)},
+    {"name": "Taras", "birthday": datetime(2023, 5, 28)},
+    {"name": "Vasyl`", "birthday": datetime(2023, 5, 29)},
+    {"name": "Olena", "birthday": datetime(2023, 5, 30)},
+    {"name": "Volodymyr", "birthday": datetime(2023, 5, 31)},
+    {"name": "David", "birthday": datetime(2023, 6, 1)},
+    {"name": "Stephania", "birthday": datetime(2023, 6, 2)},
+    {"name": "Ignat", "birthday": datetime(2023, 6, 3)}
 ]
 
 get_birthdays_per_week(users)
